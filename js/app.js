@@ -16,20 +16,26 @@ const ROUTE_TITLES = {
 async function boot(){
   // 1) 先用本地缓存渲染（保证首屏快、断网也能用）
   const local = loadLocalState();
-  // 单一浅色主题（深色模式已移除）
+  // 主题：URL ?theme= > 本地档案 > 系统偏好；head 内联脚本已抢先应用，这里再校准一次
+  applyTheme(resolveTheme());
 
-  // 2) 同时尝试从服务器拉取本设备的进度档案
+  // 2) 先用本地缓存兜底（服务器无档案/断网时不至于把已答记录清零）
+  if(local) applyState(local);
+
+  // 3) 再尝试从服务器拉取本设备的进度档案，较新者为准
   const remote = await pullFromServer();
   if(remote){
-    // 服务器档案比本地新则采用（updatedAt 比较）
     const localTs = local?.updatedAt || 0;
     const remoteTs = remote.updatedAt || 0;
     if(remoteTs >= localTs){
       applyState(remote);
-    } else {
+    } else if(local){
       // 本地更新，反向推送
       pushToServer();
     }
+  } else if(local){
+    // 服务器上还没有本设备档案，把本地缓存补传上去
+    pushToServer();
   }
 
   // 加载数据
@@ -74,6 +80,8 @@ async function boot(){
 
   buildShell();
   render();
+  // 顶栏主题按钮在 buildShell 之后才存在，这里补一次图标与状态
+  applyTheme(currentTheme());
 }
 
 function buildShell(){
@@ -85,7 +93,7 @@ function buildShell(){
         <header class="topbar">
           <button class="icon-btn menu-btn" onclick="openMobileNav()" aria-label="菜单">${icon('menu',18)}</button>
           <h1 id="pageTitle"></h1>
-          
+          <button class="icon-btn" id="themeBtn" onclick="toggleTheme()" title="切换深色/浅色模式" aria-label="切换深色/浅色模式"></button>
         </header>
         <div class="content" id="view"></div>
       </main>

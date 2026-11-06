@@ -79,7 +79,8 @@ function saveLocalState(){
     progress: App.progress,
     wrong: App.wrong,
     stats: App.stats,
-  
+    // 沿用旧档案的 theme 字段，保证与旧数据兼容；随服务器档案一起同步
+    theme: document.documentElement.getAttribute('data-theme') || 'light',
     updatedAt: Date.now(),
   };
   try { localStorage.setItem(PROFILE_KEY, JSON.stringify(payload)); } catch(e){}
@@ -92,7 +93,8 @@ function applyState(st){
   App.progress = st.progress || {};
   App.wrong = Array.isArray(st.wrong) ? st.wrong : [];
   App.stats = st.stats || {};
-  if (st.theme) applyTheme(st.theme);
+  // ?theme= 强制指定时，不被档案里的历史选择覆盖（便于截图/固定外观）
+  if (st.theme && !Theme.forced) applyTheme(st.theme);
 }
 
 /** 从服务器拉取当前设备档案 */
@@ -348,13 +350,49 @@ function toast(msg){
   toastTimer = setTimeout(()=>el.classList.remove('show'), 1900);
 }
 
-/* ---------- 主题（已移除深色模式，仅保留浅色单一主题）---------- */
-function applyTheme(theme){
-  // 只保留浅色主题；深色模式已按需求移除
-  document.documentElement.removeAttribute('data-theme');
+/* ---------- 主题 ---------- */
+// 主题值只有 light / dark，沿用旧档案的 theme 字段持久化。
+// 首屏由 index.html 的 <head> 内联脚本抢先设置 data-theme，避免先白后黑。
+const Theme = {
+  forced: false,           // true 表示 URL ?theme= 强制指定
+};
+
+/** 解析初始主题：URL 参数 > 本地档案 > 系统偏好 */
+function resolveTheme(){
+  let urlTheme = null;
+  try { urlTheme = new URLSearchParams(location.search).get('theme'); } catch(e){}
+  if (urlTheme === 'light' || urlTheme === 'dark'){
+    Theme.forced = true;
+    return urlTheme;
+  }
+  const local = loadLocalState();
+  if (local && (local.theme === 'light' || local.theme === 'dark')) return local.theme;
+  return matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
 }
+
+function currentTheme(){
+  return document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+}
+
+function applyTheme(theme){
+  const t = theme === 'dark' ? 'dark' : 'light';
+  document.documentElement.setAttribute('data-theme', t);
+  const meta = document.querySelector('meta[name="theme-color"]');
+  if (meta) meta.setAttribute('content', t === 'dark' ? '#191715' : '#faf8f4');
+  const btn = $('#themeBtn');
+  if (btn){
+    btn.innerHTML = icon(t === 'dark' ? 'sun' : 'moon', 17);
+    btn.title = t === 'dark' ? '切换到浅色模式' : '切换到深色模式';
+    btn.setAttribute('aria-label', btn.title);
+    btn.setAttribute('aria-pressed', t === 'dark' ? 'true' : 'false');
+  }
+}
+
 function toggleTheme(){
-  // 无操作：深色模式已移除
+  applyTheme(currentTheme() === 'dark' ? 'light' : 'dark');
+  // 用户手动选择：立刻写回档案（本地 + 服务器），刷新后保持
+  Theme.forced = false;
+  saveState();
 }
 
 /* ---------- 进度统计 ---------- */

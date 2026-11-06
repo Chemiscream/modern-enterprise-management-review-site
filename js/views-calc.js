@@ -515,7 +515,7 @@ function calcNetwork(){
     svg += `<rect x="${X(ES[a.code])}" y="${y-9}" width="${Math.max(4, X(EF[a.code])-X(ES[a.code]))}" height="18"
       fill="${isC?'var(--bad)':'var(--brand)'}" opacity="${isC?'0.9':'0.62'}" rx="4"/>`;
     svg += `<text x="${(X(ES[a.code])+X(EF[a.code]))/2}" y="${y+4}" text-anchor="middle"
-      class="lbl" style="fill:#fff;font-size:10px">${a.dur}</text>`;
+      class="lbl" style="fill:var(--on-fill);font-size:10px">${a.dur}</text>`;
   });
   svg += `<text x="${X(projectEnd)}" y="${H-4}" text-anchor="middle" class="lbl-b" style="fill:var(--bad)">总工期 ${fmt(projectEnd)}</text>`;
   svg += `</svg>`;
