@@ -26,9 +26,11 @@ function applyFilter(){
 
 function viewPractice(view){
   // 若从章节跳转进来，带过滤
+  let filterFromOutside = false;
   if(App._practiceFilter){
     PracticeState.filter.chapter = String(App._practiceFilter.chapter);
     App._practiceFilter = null;
+    filterFromOutside = true;
   }
 
   const sources = [...new Set(allQuestions().map(q=>q.source).filter(Boolean))];
@@ -59,31 +61,43 @@ function viewPractice(view){
     <div id="practiceArea"></div>
   `;
 
-  if(!PracticeState.list.length){
-    PracticeState.list = applyFilter();
-    PracticeState.idx = 0;
+  if(!PracticeState.list.length || filterFromOutside){
+    rebuildPracticeList();
   }
   renderPracticeQuestion();
 }
 
-function setFilter(key, val){
-  PracticeState.filter[key] = val;
+/**
+ * 按当前筛选重建题目列表。
+ * 已答/已解析记录按题目 id 保存，切换筛选时**只换题目集合，不清空作答记录**，
+ * 尽量停留在原来的那道题上；原题不在新集合里时，定位到该筛选下第一道未做的题。
+ */
+function rebuildPracticeList(keepQid){
+  const cur = keepQid || PracticeState.list[PracticeState.idx]?.id;
   PracticeState.list = applyFilter();
-  PracticeState.idx = 0;
-  PracticeState.answers = {};
-  PracticeState.revealed = {};
+
+  let idx = cur ? PracticeState.list.findIndex(x=>x.id === cur) : -1;
+  if(idx < 0){
+    idx = PracticeState.list.findIndex(x=>!PracticeState.revealed[x.id] && !PracticeState.answers[x.id]);
+  }
+  PracticeState.idx = idx < 0 ? 0 : idx;
+}
+
+function setFilter(key, val){
+  // 选择没变（例如重复选中同一项）就什么都不做
+  if(String(PracticeState.filter[key]) === String(val)) return;
+  PracticeState.filter[key] = val;
+  rebuildPracticeList();
   renderPracticeQuestion();
 }
 
 function shufflePractice(){
-  PracticeState.list = applyFilter();
+  rebuildPracticeList();
   for(let i=PracticeState.list.length-1;i>0;i--){
     const j = Math.floor(Math.random()*(i+1));
     [PracticeState.list[i], PracticeState.list[j]] = [PracticeState.list[j], PracticeState.list[i]];
   }
   PracticeState.idx = 0;
-  PracticeState.answers = {};
-  PracticeState.revealed = {};
   renderPracticeQuestion();
   toast('已打乱顺序');
 }
@@ -113,7 +127,8 @@ function renderPracticeQuestion(){
   const revealed = !!PracticeState.revealed[q.id];
   const isJudge = q.type === 'judge';
 
-  const answeredCount = Object.keys(PracticeState.answers).length;
+  // 统计只算当前筛选出来的题目，避免切到「第1章」后还显示全部章节的已答数
+  const answeredCount = PracticeState.list.filter(x=>PracticeState.answers[x.id]).length;
   const rightCount = PracticeState.list.filter(x=>{
     const a = PracticeState.answers[x.id];
     return a && a === x.answer;

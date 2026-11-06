@@ -336,20 +336,91 @@ function switchTab(ev, pid, name){
 }
 function markRead(chId, ptId){
   const nowRead = togglePointRead(chId, ptId);
-  render();
+  rerenderChapterKeepPosition();
   toast(nowRead ? '已标记为已学' : '已改回未学');
 }
 function markAllRead(chId){
   const ch = App.chapters[chId];
   if(!ch) return;
   ch.sections.forEach(s=>s.points.forEach(p=>markPointRead(chId, p.id)));
-  render();
+  rerenderChapterKeepPosition();
   toast('已全部标记');
 }
 function clearChapter(chId){
   const n = clearChapterRead(chId);
-  render();
+  rerenderChapterKeepPosition();
   toast(n ? `已清除本章 ${n} 个已学标记` : '本章没有已学标记');
+}
+
+/**
+ * 重绘当前页面但保持阅读位置。
+ * 直接调用 render() 会把所有知识点卡片重新折叠，页面高度骤减，
+ * 浏览器的滚动位置随之被夹到新的最大值（表现为「点已学后跳到页面下方」）。
+ * 这里先记下滚动位置、视口顶部那张卡片、已展开的卡片和当前标签页，重绘后逐一还原。
+ */
+const CHAPTER_HEAD_OFFSET = 74;   // 滚动定位时给顶栏留出的高度，与 jumpTo 保持一致
+
+function chapterViewSnapshot(){
+  const open = new Set($$('.point-card.open').map(el=>el.id));
+  const tabIdx = {};
+  let anchor = null;
+
+  $$('.point-card').forEach(card=>{
+    const i = $$('.tab', card).findIndex(t=>t.classList.contains('active'));
+    if(i > 0) tabIdx[card.id] = i;
+    // 记录「视口顶部第一张卡片」及其相对顶栏的偏移，作为还原基准
+    if(!card.id) return;
+    const rect = card.getBoundingClientRect();
+    if(rect.bottom > CHAPTER_HEAD_OFFSET && !anchor){
+      anchor = { id: card.id, offset: rect.top - CHAPTER_HEAD_OFFSET };
+    }
+  });
+
+  return { scrollY: window.scrollY, open, tabIdx, anchor };
+}
+
+function restoreChapterView(snapshot){
+  if(!snapshot) return;
+
+  // 1) 先还原展开状态与标签页——这决定了页面总高度
+  snapshot.open.forEach(id=>{
+    const el = document.getElementById(id);
+    if(el) el.classList.add('open');
+  });
+  Object.keys(snapshot.tabIdx).forEach(id=>{
+    const card = document.getElementById(id);
+    if(!card) return;
+    const i = snapshot.tabIdx[id];
+    const tabs = $$('.tab', card);
+    const panes = $$('.pane', card);
+    tabs.forEach(t=>t.classList.remove('active'));
+    panes.forEach(p=>p.classList.remove('active'));
+    if(tabs[i]) tabs[i].classList.add('active');
+    const name = ['ppt','plain','exam'][i];
+    const pane = panes.find(p=>p.dataset.pane === name);
+    if(pane) pane.classList.add('active');
+  });
+
+  // 2) 以锚点卡片为准还原位置；锚点不存在时退回原始 scrollY
+  const anchor = snapshot.anchor;
+  const anchorEl = anchor ? document.getElementById(anchor.id) : null;
+  const targetY = anchorEl
+    ? anchorEl.getBoundingClientRect().top + window.scrollY - CHAPTER_HEAD_OFFSET - anchor.offset
+    : snapshot.scrollY;
+
+  window.scrollTo({ top: Math.max(0, targetY), behavior: 'instant' });
+  // 字体/图示撑开高度后再校准一次（若期间已离开章节页则不再干预）
+  requestAnimationFrame(()=>{
+    if(App.route !== 'chapter') return;
+    window.scrollTo({ top: Math.max(0, targetY), behavior: 'instant' });
+  });
+}
+
+function rerenderChapterKeepPosition(){
+  if(App.route !== 'chapter'){ render(); return; }
+  const snapshot = chapterViewSnapshot();
+  render();
+  restoreChapterView(snapshot);
 }
 function startChapterPractice(chId){
   const num = parseInt(chId.replace('ch',''),10);
