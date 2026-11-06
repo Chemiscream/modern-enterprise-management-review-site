@@ -1,0 +1,2382 @@
+[
+ {
+  "id": "mid2018-01",
+  "type": "single",
+  "stem": "管理人员与一般工作人员的区别在于（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "需要与下级配合完成组织目标"
+   },
+   {
+    "key": "B",
+    "text": "需要对自己的工作成果负责"
+   },
+   {
+    "key": "C",
+    "text": "需要从事具体文件签发审阅工作"
+   },
+   {
+    "key": "D",
+    "text": "需要协调他人的努力以实现组织目标"
+   }
+  ],
+  "answer": "D",
+  "explain": "管理者与一般工作人员的本质区别在于：管理者手下有下级，需要通过协调他人的努力来实现组织目标。",
+  "chapter": 1,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-02",
+  "type": "single",
+  "stem": "管理学的研究方法包括（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "归纳法、试验法"
+   },
+   {
+    "key": "B",
+    "text": "试验法、演绎法"
+   },
+   {
+    "key": "C",
+    "text": "归纳法、演绎法"
+   },
+   {
+    "key": "D",
+    "text": "归纳法、试验法、演绎法"
+   }
+  ],
+  "answer": "D",
+  "explain": "管理学的研究方法包括归纳法（从典型到一般，即实证研究）、试验法（人为创造条件观察结果）和演绎法（建立模型）。三者并列。",
+  "chapter": 1,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-03",
+  "type": "single",
+  "stem": "管理者的首要职能是（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "组织"
+   },
+   {
+    "key": "B",
+    "text": "决策"
+   },
+   {
+    "key": "C",
+    "text": "领导"
+   },
+   {
+    "key": "D",
+    "text": "计划"
+   }
+  ],
+  "answer": "D",
+  "explain": "计划是管理的首要职能，是组织、领导、控制等其他职能的依据和目标。",
+  "chapter": 1,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-04",
+  "type": "single",
+  "stem": "管理的二重属性是指（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "自然属性和科学属性"
+   },
+   {
+    "key": "B",
+    "text": "计划属性和市场属性"
+   },
+   {
+    "key": "C",
+    "text": "科学属性和社会属性"
+   },
+   {
+    "key": "D",
+    "text": "自然属性和社会属性"
+   }
+  ],
+  "answer": "D",
+  "explain": "管理的二重性是自然属性（生产力属性，与制度无关）和社会属性（生产关系属性，受政治制度制约）。",
+  "chapter": 1,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-05",
+  "type": "single",
+  "stem": "被誉为科学管理之父的管理学家是（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "泰罗"
+   },
+   {
+    "key": "B",
+    "text": "亚当·斯密"
+   },
+   {
+    "key": "C",
+    "text": "韦伯"
+   },
+   {
+    "key": "D",
+    "text": "法约尔"
+   }
+  ],
+  "answer": "A",
+  "explain": "泰罗（泰勒）被称为\"科学管理之父\"，代表作《科学管理原理》。",
+  "chapter": 1,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-06",
+  "type": "single",
+  "stem": "“霍桑实验”直接为（）做论证",
+  "options": [
+   {
+    "key": "A",
+    "text": "人际关系学说"
+   },
+   {
+    "key": "B",
+    "text": "决策理论学说"
+   },
+   {
+    "key": "C",
+    "text": "组织管理理论"
+   },
+   {
+    "key": "D",
+    "text": "权变理论学说"
+   }
+  ],
+  "answer": "A",
+  "explain": "霍桑实验（1924-1932）直接为梅奥的人际关系学说提供了论证，得出\"社会人\"和\"非正式组织\"的结论。",
+  "chapter": 1,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-07",
+  "type": "single",
+  "stem": "马斯洛提出的需要层次理论中，五种需要从低到高排列依次为（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "自我实现需要、尊重需要、社交需要、安全需要、生理需要"
+   },
+   {
+    "key": "B",
+    "text": "尊重需要、安全需要、生理需要、社交需要、自我实现需要"
+   },
+   {
+    "key": "C",
+    "text": "安全需要、生理需要、社交需要、尊重需要、自我实现需要"
+   },
+   {
+    "key": "D",
+    "text": "生理需要、安全需要、社交需要、尊重需要、自我实现需要"
+   }
+  ],
+  "answer": "D",
+  "explain": "五层次由低到高：生理需要、安全需要、社交需要、尊重需要、自我实现需要。",
+  "chapter": 1,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-08",
+  "type": "single",
+  "stem": "“胡萝卜加大棒”的管理政策是根据（）进行管理的方式",
+  "options": [
+   {
+    "key": "A",
+    "text": "X理论"
+   },
+   {
+    "key": "B",
+    "text": "Y理论"
+   },
+   {
+    "key": "C",
+    "text": "需要层次理论"
+   },
+   {
+    "key": "D",
+    "text": "公平理论"
+   }
+  ],
+  "answer": "A",
+  "explain": "\"胡萝卜加大棒\"（金钱刺激+严厉惩罚）是X理论的管理方式，假设人天生懒惰、需要被管制。",
+  "chapter": 1,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-09",
+  "type": "single",
+  "stem": "美国麻省理工学院心理学教授（）1960年在其著作《企业中人的方面》提出了X理论和Y理论",
+  "options": [
+   {
+    "key": "A",
+    "text": "赫茨伯格"
+   },
+   {
+    "key": "B",
+    "text": "马斯洛"
+   },
+   {
+    "key": "C",
+    "text": "麦格雷戈"
+   },
+   {
+    "key": "D",
+    "text": "弗鲁姆"
+   }
+  ],
+  "answer": "C",
+  "explain": "麦格雷戈1960年在《企业中人的方面》提出X理论和Y理论。",
+  "chapter": 1,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-10",
+  "type": "single",
+  "stem": "目标管理指导思想是以（）为基础的",
+  "options": [
+   {
+    "key": "A",
+    "text": "Y理论"
+   },
+   {
+    "key": "B",
+    "text": "X理论"
+   },
+   {
+    "key": "C",
+    "text": "Z理论"
+   },
+   {
+    "key": "D",
+    "text": "超Y理论"
+   }
+  ],
+  "answer": "A",
+  "explain": "目标管理以Y理论为基础，相信人在目标明确时能够自我负责。",
+  "chapter": 2,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-11",
+  "type": "single",
+  "stem": "下列各选项中，（）属于双因素理论的保健因素",
+  "options": [
+   {
+    "key": "A",
+    "text": "工资"
+   },
+   {
+    "key": "B",
+    "text": "晋升"
+   },
+   {
+    "key": "C",
+    "text": "工作本身"
+   },
+   {
+    "key": "D",
+    "text": "责任"
+   }
+  ],
+  "answer": "A",
+  "explain": "工资属于保健因素（与不满情绪相关，只能消除不满、不能产生满意）。晋升、工作本身、责任属于激励因素。",
+  "chapter": 1,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-12",
+  "type": "single",
+  "stem": "管理的本质是（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "变革"
+   },
+   {
+    "key": "B",
+    "text": "决策"
+   },
+   {
+    "key": "C",
+    "text": "协调"
+   },
+   {
+    "key": "D",
+    "text": "创新"
+   }
+  ],
+  "answer": "B",
+  "explain": "管理的本质是决策（西蒙\"管理就是决策\"）。",
+  "chapter": 1,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-13",
+  "type": "single",
+  "stem": "我国的俗语“人往高处走，水往低处流”体现了以下哪一种理论（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "三种需要理论"
+   },
+   {
+    "key": "B",
+    "text": "需要层次理论"
+   },
+   {
+    "key": "C",
+    "text": "双因素理论"
+   },
+   {
+    "key": "D",
+    "text": "期望理论"
+   }
+  ],
+  "answer": "B",
+  "explain": "\"人往高处走\"体现需要逐层递进、向上追求更高层次需要，符合马斯洛需要层次理论。",
+  "chapter": 1,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-14",
+  "type": "single",
+  "stem": "Y理论对人性的假设是（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "“自我实现的人”"
+   },
+   {
+    "key": "B",
+    "text": "“社会人”"
+   },
+   {
+    "key": "C",
+    "text": "“经济人”"
+   },
+   {
+    "key": "D",
+    "text": "“科学人”"
+   }
+  ],
+  "answer": "A",
+  "explain": "Y理论假设人性为\"自我实现的人\"（自动人），认为人天生勤奋、有自我实现的愿望。",
+  "chapter": 1,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-15",
+  "type": "single",
+  "stem": "泰罗提出了在组织方面进行改革，一是把（）职能和执行职能分开，二是实行职能工长制",
+  "options": [
+   {
+    "key": "A",
+    "text": "组织"
+   },
+   {
+    "key": "B",
+    "text": "控制"
+   },
+   {
+    "key": "C",
+    "text": "领导"
+   },
+   {
+    "key": "D",
+    "text": "计划"
+   }
+  ],
+  "answer": "D",
+  "explain": "泰罗在组织方面的改革：一是把计划职能与执行职能分开，二是实行职能工长制。",
+  "chapter": 1,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-16",
+  "type": "single",
+  "stem": "管理活动过程中，存在这一系列的基本客观规律，这是指管理的（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "自然属性"
+   },
+   {
+    "key": "B",
+    "text": "社会属性"
+   },
+   {
+    "key": "C",
+    "text": "科学性"
+   },
+   {
+    "key": "D",
+    "text": "艺术性"
+   }
+  ],
+  "answer": "C",
+  "explain": "管理活动中存在基本客观规律，指管理具有科学性。",
+  "chapter": 1,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-17",
+  "type": "single",
+  "stem": "泰勒科学管理要解决的中心问题是（）。",
+  "options": [
+   {
+    "key": "A",
+    "text": "提高效率"
+   },
+   {
+    "key": "B",
+    "text": "提高管理水平"
+   },
+   {
+    "key": "C",
+    "text": "提高利润"
+   },
+   {
+    "key": "D",
+    "text": "提高销售额"
+   }
+  ],
+  "answer": "A",
+  "explain": "泰勒科学管理要解决的中心问题是提高效率（劳动生产率）。",
+  "chapter": 1,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-18",
+  "type": "single",
+  "stem": "目标管理的最早提出者是（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "彼得斯"
+   },
+   {
+    "key": "B",
+    "text": "德鲁克"
+   },
+   {
+    "key": "C",
+    "text": "卡曼"
+   },
+   {
+    "key": "D",
+    "text": "斯隆"
+   }
+  ],
+  "answer": "B",
+  "explain": "目标管理（MBO）由彼得·德鲁克于1954年首先提出。",
+  "chapter": 2,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-19",
+  "type": "single",
+  "stem": "往往由高层管理人员负责的计划是（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "战略计划"
+   },
+   {
+    "key": "B",
+    "text": "战术计划"
+   },
+   {
+    "key": "C",
+    "text": "作业计划"
+   },
+   {
+    "key": "D",
+    "text": "日常计划"
+   }
+  ],
+  "answer": "A",
+  "explain": "战略计划关系到组织全局和长远发展，由高层管理者负责。",
+  "chapter": 2,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-20",
+  "type": "single",
+  "stem": "一个组织各种活动的出发点和归宿是（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "宗旨"
+   },
+   {
+    "key": "B",
+    "text": "战略"
+   },
+   {
+    "key": "C",
+    "text": "政策"
+   },
+   {
+    "key": "D",
+    "text": "目标"
+   }
+  ],
+  "answer": "D",
+  "explain": "目标是组织各种活动的出发点和归宿。",
+  "chapter": 2,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-21",
+  "type": "single",
+  "stem": "以下哪种方法能够清晰地反映各项作业的先后逻辑联系及所处的地位（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "目标管理法"
+   },
+   {
+    "key": "B",
+    "text": "滚动计划法"
+   },
+   {
+    "key": "C",
+    "text": "综合评价法"
+   },
+   {
+    "key": "D",
+    "text": "网络计划法"
+   }
+  ],
+  "answer": "D",
+  "explain": "网络计划法能清晰反映各项作业的先后逻辑联系及所处地位，并找出关键线路。",
+  "chapter": 2,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-22",
+  "type": "single",
+  "stem": "在大多数情况下，具体的、可操作的作业性计划主要是针对（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "高层管理者"
+   },
+   {
+    "key": "B",
+    "text": "中层管理者"
+   },
+   {
+    "key": "C",
+    "text": "基层管理者"
+   },
+   {
+    "key": "D",
+    "text": "每个管理者"
+   }
+  ],
+  "answer": "C",
+  "explain": "作业性计划具体、可操作、刚性强，主要针对基层管理者。",
+  "chapter": 2,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-23",
+  "type": "single",
+  "stem": "对经济、政策等方面的预测是在计划流程的哪个程序中（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "明确企业的使命和宗旨"
+   },
+   {
+    "key": "B",
+    "text": "估量机会及确定目标"
+   },
+   {
+    "key": "C",
+    "text": "拟定计划方案"
+   },
+   {
+    "key": "D",
+    "text": "制定派生计划"
+   }
+  ],
+  "answer": "B",
+  "explain": "计划流程第二步\"估量机会、确定目标\"包含对经济、政策等外部环境的预测与机会评估。",
+  "chapter": 2,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-24",
+  "type": "single",
+  "stem": "管理者实施控制的标准的是（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "组织"
+   },
+   {
+    "key": "B",
+    "text": "计划"
+   },
+   {
+    "key": "C",
+    "text": "决策"
+   },
+   {
+    "key": "D",
+    "text": "激励"
+   }
+  ],
+  "answer": "B",
+  "explain": "管理者实施控制的标准来自计划——计划是控制的标准和依据。",
+  "chapter": 2,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-25",
+  "type": "single",
+  "stem": "具有长远性、单值性和较大的弹性的计划是（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "战略性计划"
+   },
+   {
+    "key": "B",
+    "text": "综合性计划"
+   },
+   {
+    "key": "C",
+    "text": "战术性计划"
+   },
+   {
+    "key": "D",
+    "text": "短期计划"
+   }
+  ],
+  "answer": "A",
+  "explain": "战略性计划具有长远性、单值性和较大的弹性。",
+  "chapter": 2,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-26",
+  "type": "single",
+  "stem": "企业的生产计划、销售计划和财务计划等都属于（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "综合计划"
+   },
+   {
+    "key": "B",
+    "text": "专业计划"
+   },
+   {
+    "key": "C",
+    "text": "项目计划"
+   },
+   {
+    "key": "D",
+    "text": "指导性计划"
+   }
+  ],
+  "answer": "B",
+  "explain": "生产计划、销售计划、财务计划属于各专业领域的计划，即专业计划。",
+  "chapter": 2,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-27",
+  "type": "single",
+  "stem": "计划的有效性受到组织所处的阶段影响的因素是（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "管理因素"
+   },
+   {
+    "key": "B",
+    "text": "制定者因素"
+   },
+   {
+    "key": "C",
+    "text": "环境因素"
+   },
+   {
+    "key": "D",
+    "text": "组织因素"
+   }
+  ],
+  "answer": "D",
+  "explain": "题目问\"受组织所处阶段影响\"的因素，即组织因素（组织的层次和发展阶段）。",
+  "chapter": 2,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-28",
+  "type": "single",
+  "stem": "在组织的成长期，应该以下面哪种计划为主（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "长期计划"
+   },
+   {
+    "key": "B",
+    "text": "短期计划"
+   },
+   {
+    "key": "C",
+    "text": "中期计划"
+   },
+   {
+    "key": "D",
+    "text": "综合计划"
+   }
+  ],
+  "answer": "B",
+  "explain": "按教材「组织的发展阶段」：成长期各种不确定性因素大为减少，虽然仍以短期计划为主，但计划更为具体明确了；成熟期相对稳定、可预见性最大，才最适用于长期、具体的计划。故本题选短期计划。",
+  "chapter": 2,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-29",
+  "type": "single",
+  "stem": "在组织的成熟期，最适用以下哪种计划（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "长期计划"
+   },
+   {
+    "key": "B",
+    "text": "短期计划"
+   },
+   {
+    "key": "C",
+    "text": "中期计划"
+   },
+   {
+    "key": "D",
+    "text": "综合计划"
+   }
+  ],
+  "answer": "A",
+  "explain": "组织成熟期业务稳定，宜以长期计划为主，谋划长远。",
+  "chapter": 2,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-30",
+  "type": "single",
+  "stem": "组织和个人在一个时期内通过努力而期望获得的成果是（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "目标"
+   },
+   {
+    "key": "B",
+    "text": "计划"
+   },
+   {
+    "key": "C",
+    "text": "理想"
+   },
+   {
+    "key": "D",
+    "text": "梦想"
+   }
+  ],
+  "answer": "A",
+  "explain": "目标是指期望获得的成果。",
+  "chapter": 2,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-31",
+  "type": "single",
+  "stem": "目标的制定应尽可能量化，主要是由以下哪个目标的要求决定的（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "先进性"
+   },
+   {
+    "key": "B",
+    "text": "具体性"
+   },
+   {
+    "key": "C",
+    "text": "可实现性"
+   },
+   {
+    "key": "D",
+    "text": "时间期限性"
+   }
+  ],
+  "answer": "B",
+  "explain": "量化对应\"具体性\"——目标必须具体、可衡量。",
+  "chapter": 2,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-32",
+  "type": "single",
+  "stem": "实施目标管理的主要难点是（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "不利于有效地实施管理"
+   },
+   {
+    "key": "B",
+    "text": "不利于调动积极性"
+   },
+   {
+    "key": "C",
+    "text": "难以有效地控制"
+   },
+   {
+    "key": "D",
+    "text": "设置目标及量化存在困难"
+   }
+  ],
+  "answer": "D",
+  "explain": "目标管理的主要难点在于设置目标和量化存在困难。",
+  "chapter": 2,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-33",
+  "type": "single",
+  "stem": "根据Y理论，你认为持此理论观点的管理者在为下属制定计划时，会倾向于哪一类计划？()",
+  "options": [
+   {
+    "key": "A",
+    "text": "专业计划"
+   },
+   {
+    "key": "B",
+    "text": "具体计划"
+   },
+   {
+    "key": "C",
+    "text": "综合性计划"
+   },
+   {
+    "key": "D",
+    "text": "指导性计划"
+   }
+  ],
+  "answer": "D",
+  "explain": "Y理论相信下属能自我负责，因此倾向于制定指导性计划（参考性、非强制）。",
+  "chapter": 2,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-34",
+  "type": "single",
+  "stem": "组织在未来特定时限内完成任务程度的标志是()",
+  "options": [
+   {
+    "key": "A",
+    "text": "目标"
+   },
+   {
+    "key": "B",
+    "text": "可行"
+   },
+   {
+    "key": "C",
+    "text": "选择"
+   },
+   {
+    "key": "D",
+    "text": "满意"
+   }
+  ],
+  "answer": "A",
+  "explain": "目标是在未来特定时限内完成任务程度的标志。",
+  "chapter": 2,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-35",
+  "type": "single",
+  "stem": "一切管理活动都是为了支持和保障计划目标的实现而展开的是指计划工作的（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "计划工作的重要性"
+   },
+   {
+    "key": "B",
+    "text": "计划工作的普遍性"
+   },
+   {
+    "key": "C",
+    "text": "计划工作的首要性"
+   },
+   {
+    "key": "D",
+    "text": "计划工作的指导性"
+   }
+  ],
+  "answer": "C",
+  "explain": "\"一切管理活动都为了支持和保障计划目标\"体现计划工作的首要性（计划是其他职能的基础）。",
+  "chapter": 2,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-36",
+  "type": "single",
+  "stem": "组织管理的基本任务是（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "设计高效率组织结构"
+   },
+   {
+    "key": "B",
+    "text": "人尽其用"
+   },
+   {
+    "key": "C",
+    "text": "实现组织目标"
+   },
+   {
+    "key": "D",
+    "text": "以上三个都有"
+   }
+  ],
+  "answer": "D",
+  "explain": "组织管理的基本任务包括设计高效率组织结构、人尽其用、实现组织目标，三者兼有。",
+  "chapter": 3,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-37",
+  "type": "single",
+  "stem": "属于组织结构设计任务的有哪些？（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "职位分析和设计"
+   },
+   {
+    "key": "B",
+    "text": "职权分析和设计"
+   },
+   {
+    "key": "C",
+    "text": "领导岗位分析和设计"
+   },
+   {
+    "key": "D",
+    "text": "岗位级别的分析和设计"
+   }
+  ],
+  "answer": "A",
+  "explain": "组织结构设计的任务包括职位分析和设计、管理层次和部门划分、组织结构形成。职权分析、领导岗位分析、岗位级别分析均属编造项。",
+  "chapter": 3,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-38",
+  "type": "single",
+  "stem": "下列哪一个不属于组织结构设计的原则（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "专业化分工协作原则"
+   },
+   {
+    "key": "B",
+    "text": "权责对等原则"
+   },
+   {
+    "key": "C",
+    "text": "统一指挥原则"
+   },
+   {
+    "key": "D",
+    "text": "有效管理幅度原则"
+   }
+  ],
+  "answer": "B",
+  "explain": "组织结构设计的原则：专业化分工协作、目标至上与职能领先、有效管理幅度、责权利对等、统一指挥、因事设职与因人设职相结合（课件第 29 页）。本题按原卷答案为「权责对等原则」——课件原文作「责权利对等」，选项少一个「利」字，属表述不完整项，故判为「不属于」。⚠️卷面该选项标 D、本题库因选项顺序不同标 B，两处所指文字相同；此题为原卷争议题，卷面以答案为准。",
+  "chapter": 3,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-39",
+  "type": "single",
+  "stem": "管理层次是组织管理者的管理劳动在什么上的分工（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "横向"
+   },
+   {
+    "key": "B",
+    "text": "纵向"
+   },
+   {
+    "key": "C",
+    "text": "宏观"
+   },
+   {
+    "key": "D",
+    "text": "微观"
+   }
+  ],
+  "answer": "B",
+  "explain": "管理层次是管理者管理劳动在纵向上的分工；部门化是横向分工。",
+  "chapter": 3,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-40",
+  "type": "single",
+  "stem": "管理层次和管理幅度的关系（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "管理幅度=管理层次/组织规模"
+   },
+   {
+    "key": "B",
+    "text": "管理层次=管理幅度/组织规模"
+   },
+   {
+    "key": "C",
+    "text": "管理幅度=组织规模/管理层次"
+   },
+   {
+    "key": "D",
+    "text": "管理层次=组织规模/部门规模"
+   }
+  ],
+  "answer": "C",
+  "explain": "组织规模 = 管理层次 × 管理幅度，故管理幅度 = 组织规模/管理层次。",
+  "chapter": 3,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-41",
+  "type": "single",
+  "stem": "下列不属于直线职能制组织结构缺点的是（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "各职能单位自成体系"
+   },
+   {
+    "key": "B",
+    "text": "信息横向沟通不灵"
+   },
+   {
+    "key": "C",
+    "text": "只适用于小型企业组织"
+   },
+   {
+    "key": "D",
+    "text": "不利于培养组织中的综合管理人员"
+   }
+  ],
+  "answer": "C",
+  "explain": "直线职能制的缺点是横向沟通差、职能本位主义、不利于培养综合人才、弹性不足。\"只适用于小型企业\"是直线制的特点，不是直线职能制的缺点。",
+  "chapter": 3,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-42",
+  "type": "single",
+  "stem": "下列属于事业部组织结构优点的是（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "有利于培养综合的高级管理人才"
+   },
+   {
+    "key": "B",
+    "text": "有利于保证统一行政指挥"
+   },
+   {
+    "key": "C",
+    "text": "有利于发挥专业人员的管理作用"
+   },
+   {
+    "key": "D",
+    "text": "对下属的指导比较具体"
+   }
+  ],
+  "answer": "A",
+  "explain": "事业部制的优点：责权利明确、调动积极性、有利于培养综合的高级管理人才。保证统一行政指挥、发挥专业作用、指导具体分别是直线职能制和职能制的优点。",
+  "chapter": 3,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-43",
+  "type": "single",
+  "stem": "下列属于矩阵制组织优点是（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "有利于调动管理人才的主动性"
+   },
+   {
+    "key": "B",
+    "text": "指挥命令关系清晰统一"
+   },
+   {
+    "key": "C",
+    "text": "部门、职位职责明确"
+   },
+   {
+    "key": "D",
+    "text": "加强了组织中横向联系"
+   }
+  ],
+  "answer": "D",
+  "explain": "矩阵制的优点是：加强了组织中的横向联系、提高了组织结构的灵活性和应变能力、有利于思想交流激发创新（课件第 3 章第 67 页）。B「指挥命令关系清晰统一」、C「部门、职位职责明确」是直线制的优点（课件第 48 页原话），A 项「有利于调动管理人才的主动性」课件未列为矩阵制优点。",
+  "chapter": 3,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-44",
+  "type": "single",
+  "stem": "在管理学中，非正式组织是指（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "人际互动中形成的非正式群体"
+   },
+   {
+    "key": "B",
+    "text": "人际互动中形成的非正式组织"
+   },
+   {
+    "key": "C",
+    "text": "未经上级批准的组织"
+   },
+   {
+    "key": "D",
+    "text": "未得到社会承认的组织"
+   }
+  ],
+  "answer": "A",
+  "explain": "非正式组织是人们在交往中自发形成的、未经正式筹划的个人关系网络。\"未经上级批准\"不等于非正式组织（可能只是待批的正式组织）。",
+  "chapter": 3,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-45",
+  "type": "single",
+  "stem": "统一指挥原则在下列哪种组织结构中可能失效（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "直线制组织"
+   },
+   {
+    "key": "B",
+    "text": "职能制组织"
+   },
+   {
+    "key": "C",
+    "text": "直线职能制组织"
+   },
+   {
+    "key": "D",
+    "text": "矩阵式组织"
+   }
+  ],
+  "answer": "D",
+  "explain": "矩阵制存在双重领导（行政+项目），统一指挥原则在此失效。",
+  "chapter": 3,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-46",
+  "type": "single",
+  "stem": "如果你是一位总经理，你认为管理幅度的大小和管理层次之间的关系一般为（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "正比"
+   },
+   {
+    "key": "B",
+    "text": "反比"
+   },
+   {
+    "key": "C",
+    "text": "相关"
+   },
+   {
+    "key": "D",
+    "text": "没有关系"
+   }
+  ],
+  "answer": "B",
+  "explain": "管理幅度与管理层次成反比。",
+  "chapter": 3,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-47",
+  "type": "single",
+  "stem": "职能职权的运用最有可能造成（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "沟通障碍"
+   },
+   {
+    "key": "B",
+    "text": "多头领导"
+   },
+   {
+    "key": "C",
+    "text": "削弱直线职权"
+   },
+   {
+    "key": "D",
+    "text": "无人负责"
+   }
+  ],
+  "answer": "B",
+  "explain": "职能职权允许参谋人员直接下达指示，最易造成多头领导。",
+  "chapter": 3,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-48",
+  "type": "single",
+  "stem": "某医院为了给一特殊病人实施治疗方案，成立了有放射科，麻醉科，骨科等组成的多学科专家会诊小组。这种组织形式属于（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "直线制"
+   },
+   {
+    "key": "B",
+    "text": "直线职能制"
+   },
+   {
+    "key": "C",
+    "text": "事业部制"
+   },
+   {
+    "key": "D",
+    "text": "矩阵制"
+   }
+  ],
+  "answer": "D",
+  "explain": "抽调各科室专家组成项目组、成员仍归原科室管理，属矩阵制。",
+  "chapter": 3,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-49",
+  "type": "single",
+  "stem": "下列不属于扁平化组织优点的是（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "信息传递速度快"
+   },
+   {
+    "key": "B",
+    "text": "每位主管能对下属进行详尽的指导"
+   },
+   {
+    "key": "C",
+    "text": "信息失真的可能性很小"
+   },
+   {
+    "key": "D",
+    "text": "管理层次减少"
+   }
+  ],
+  "answer": "B",
+  "explain": "扁平化组织幅度大，主管难以对每位下属进行详尽指导——这是缺点而非优点。",
+  "chapter": 3,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-50",
+  "type": "single",
+  "stem": "（）下的职能管理人员在其职能专业领域上只有参谋指导权，对组织中下级单位没有直接行政指挥权，一般适用于稳定环境下的中小企业。",
+  "options": [
+   {
+    "key": "A",
+    "text": "职能制组织结构形式"
+   },
+   {
+    "key": "B",
+    "text": "直线职能制组织结构形式"
+   },
+   {
+    "key": "C",
+    "text": "事业部制组织结构形式"
+   },
+   {
+    "key": "D",
+    "text": "超事业部制组织结构形式"
+   }
+  ],
+  "answer": "B",
+  "explain": "直线职能制下职能人员只有参谋指导权、无直接指挥权，适用于稳定环境下的中小企业。",
+  "chapter": 3,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-51",
+  "type": "single",
+  "stem": "组织文化大致可分为三个层次，下列（）属于组织文化物质层",
+  "options": [
+   {
+    "key": "A",
+    "text": "奇瑞商标"
+   },
+   {
+    "key": "B",
+    "text": "庆功会"
+   },
+   {
+    "key": "C",
+    "text": "厂庆活动"
+   },
+   {
+    "key": "D",
+    "text": "学校校风"
+   }
+  ],
+  "answer": "A",
+  "explain": "奇瑞商标属于物质层（器物层、可见标识）；庆功会、厂庆活动属制度层；校风属精神层。",
+  "chapter": 3,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-52",
+  "type": "single",
+  "stem": "组织文化的核心和灵魂是（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "精神层"
+   },
+   {
+    "key": "B",
+    "text": "物质层"
+   },
+   {
+    "key": "C",
+    "text": "制度层"
+   },
+   {
+    "key": "D",
+    "text": "器物层"
+   }
+  ],
+  "answer": "A",
+  "explain": "组织文化的核心和灵魂是精神层。",
+  "chapter": 3,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-53",
+  "type": "single",
+  "stem": "如何对待组织中的非正式组织(）",
+  "options": [
+   {
+    "key": "A",
+    "text": "坚决取缔"
+   },
+   {
+    "key": "B",
+    "text": "绝对禁止"
+   },
+   {
+    "key": "C",
+    "text": "随意放纵"
+   },
+   {
+    "key": "D",
+    "text": "因势利导"
+   }
+  ],
+  "answer": "D",
+  "explain": "对非正式组织应因势利导，既不能取缔也不能放任。",
+  "chapter": 3,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-54",
+  "type": "single",
+  "stem": "组织文化的作用不包括（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "导向作用"
+   },
+   {
+    "key": "B",
+    "text": "创造作用"
+   },
+   {
+    "key": "C",
+    "text": "凝聚作用"
+   },
+   {
+    "key": "D",
+    "text": "激励作用"
+   }
+  ],
+  "answer": "B",
+  "explain": "组织文化的作用共五个：导向、规范、凝聚、激励、辐射（课件第129—135页）。选项 A 导向、C 凝聚、D 激励都在五作用之内，只有 B「创造作用」不属于组织文化的作用。",
+  "chapter": 3,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-55",
+  "type": "single",
+  "stem": "下列哪些属于组织文化的特性（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "无形性、软约束性、相对稳定性和连续性"
+   },
+   {
+    "key": "B",
+    "text": "强约束性、相对稳定性"
+   },
+   {
+    "key": "C",
+    "text": "无形性、随意性"
+   },
+   {
+    "key": "D",
+    "text": "相对稳定性、不连续性和随意性"
+   }
+  ],
+  "answer": "A",
+  "explain": "组织文化的特性共四项：无形性、软约束性、相对稳定性和连续性、个性（课件第 128 页）。本题 A 项含前三项（四项齐全的一档卷面未设，『个性』只作背景知识）；B「强约束性」、C「随意性」、D「不连续性、随意性」均与课件相反，故按排除法选 A。",
+  "chapter": 3,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-56",
+  "type": "single",
+  "stem": "在费德勒的权变理论模型中，在上下级关系好、任务结构明确、职位权利强和情境有利的条件下，适合选择（）领导方式",
+  "options": [
+   {
+    "key": "A",
+    "text": "任务导向性"
+   },
+   {
+    "key": "B",
+    "text": "人际关系型"
+   },
+   {
+    "key": "C",
+    "text": "团队型"
+   },
+   {
+    "key": "D",
+    "text": "分权型"
+   }
+  ],
+  "answer": "A",
+  "explain": "费德勒模型：情境有利（关系好、任务明确、职位权力强）时，任务导向型领导最有效。",
+  "chapter": 4,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-57",
+  "type": "single",
+  "stem": "控制工作中要突出重点，这是控制的（）原则",
+  "options": [
+   {
+    "key": "A",
+    "text": "准确性"
+   },
+   {
+    "key": "B",
+    "text": "关键性"
+   },
+   {
+    "key": "C",
+    "text": "例外性"
+   },
+   {
+    "key": "D",
+    "text": "及时性"
+   }
+  ],
+  "answer": "B",
+  "explain": "突出重点即抓住关键环节，属关键点原则。本题选项字面作「关键性」（B），与第 74 题选项「关键点原则」同指；与「例外原则」区分：例外指只处理计划实施中的异常偏差（特别好或特别坏）。",
+  "chapter": 5,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-58",
+  "type": "single",
+  "stem": "决策管理学派认为，“管理就是（）”",
+  "options": [
+   {
+    "key": "A",
+    "text": "组织"
+   },
+   {
+    "key": "B",
+    "text": "领导"
+   },
+   {
+    "key": "C",
+    "text": "决策"
+   },
+   {
+    "key": "D",
+    "text": "控制"
+   }
+  ],
+  "answer": "C",
+  "explain": "决策管理学派（西蒙）认为\"管理就是决策\"。",
+  "chapter": 9,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-59",
+  "type": "single",
+  "stem": "领导的构成要素包括（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "领导者、被领导者、职权"
+   },
+   {
+    "key": "B",
+    "text": "领导者、被领导者、环境条件"
+   },
+   {
+    "key": "C",
+    "text": "职权、领导者、环境条件"
+   },
+   {
+    "key": "D",
+    "text": "环境条件、被领导者、职权"
+   }
+  ],
+  "answer": "B",
+  "explain": "领导由领导者、被领导者、环境条件三要素构成。",
+  "chapter": 4,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-60",
+  "type": "single",
+  "stem": "在哪种领导风格下，团队工作效率最高（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "民主型"
+   },
+   {
+    "key": "B",
+    "text": "专制型"
+   },
+   {
+    "key": "C",
+    "text": "放任型"
+   },
+   {
+    "key": "D",
+    "text": "自主型"
+   }
+  ],
+  "answer": "A",
+  "explain": "勒温（莱温）的领导风格理论认为民主型领导效率最高。",
+  "chapter": 4,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-61",
+  "type": "single",
+  "stem": "费德勒模式中影响领导的情境因素不包括（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "领导者和被领导者的关系"
+   },
+   {
+    "key": "B",
+    "text": "任务结构"
+   },
+   {
+    "key": "C",
+    "text": "规章制度"
+   },
+   {
+    "key": "D",
+    "text": "职位权力"
+   }
+  ],
+  "answer": "C",
+  "explain": "费德勒的情境因素有三种：上下级关系、任务结构、职位权力。\"规章制度\"不在其中。",
+  "chapter": 4,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-62",
+  "type": "single",
+  "stem": "激励理论包括（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "内容型、行为改造型、物质激励型"
+   },
+   {
+    "key": "B",
+    "text": "行为改造型、过程型、物质激励型"
+   },
+   {
+    "key": "C",
+    "text": "内容型、过程型、物质激励型"
+   },
+   {
+    "key": "D",
+    "text": "内容型、行为改造型、过程型"
+   }
+  ],
+  "answer": "D",
+  "explain": "激励理论分为内容型（需要层次、双因素）、行为改造型（强化、归因、成就需要）、过程型（期望、公平）。物质激励型不是分类之一。",
+  "chapter": 4,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-63",
+  "type": "single",
+  "stem": "双因素理论包括哪两个因素（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "激励因素、精神因素"
+   },
+   {
+    "key": "B",
+    "text": "保健因素、物质因素"
+   },
+   {
+    "key": "C",
+    "text": "精神因素、物质因素"
+   },
+   {
+    "key": "D",
+    "text": "激励因素、保健因素"
+   }
+  ],
+  "answer": "D",
+  "explain": "双因素理论的两个因素是激励因素和保健因素。",
+  "chapter": 4,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-64",
+  "type": "single",
+  "stem": "公平理论的两个比较是指（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "成本和收益比较"
+   },
+   {
+    "key": "B",
+    "text": "横向比较和纵向比较"
+   },
+   {
+    "key": "C",
+    "text": "过去和现在比较"
+   },
+   {
+    "key": "D",
+    "text": "自身和环境比较"
+   }
+  ],
+  "answer": "B",
+  "explain": "公平理论的两个比较：横向比较（与他人比）和纵向比较（与自己的过去比）。",
+  "chapter": 4,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-65",
+  "type": "single",
+  "stem": "管理控制过程的第一步是（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "确立标准"
+   },
+   {
+    "key": "B",
+    "text": "检查绩效"
+   },
+   {
+    "key": "C",
+    "text": "找出原因"
+   },
+   {
+    "key": "D",
+    "text": "纠正偏差"
+   }
+  ],
+  "answer": "A",
+  "explain": "控制过程分三步：确定（确立）标准、衡量绩效、采取措施（纠偏、修订标准或对达标者正强化）。故第一步是确立标准（选项字面）。",
+  "chapter": 5,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-66",
+  "type": "single",
+  "stem": "“治病不如防病，防病不如讲卫生。”根据这一说法，最适合的控制方式是（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "前馈控制"
+   },
+   {
+    "key": "B",
+    "text": "实时控制"
+   },
+   {
+    "key": "C",
+    "text": "反馈控制"
+   },
+   {
+    "key": "D",
+    "text": "现场控制"
+   }
+  ],
+  "answer": "A",
+  "explain": "\"防病\"\"讲卫生\"都是事前预防，属前馈控制。",
+  "chapter": 5,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-67",
+  "type": "single",
+  "stem": "下列关于控制与计划的关系，表述正确的是（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "控制为计划提供标准"
+   },
+   {
+    "key": "B",
+    "text": "计划是控制的继续"
+   },
+   {
+    "key": "C",
+    "text": "控制需要计划提供保障"
+   },
+   {
+    "key": "D",
+    "text": "计划指导控制"
+   }
+  ],
+  "answer": "D",
+  "explain": "计划与控制的关系：计划是控制的标准，计划指导控制。",
+  "chapter": 5,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-68",
+  "type": "single",
+  "stem": "以下控制类型不是按控制的来源分的是（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "正式组织控制"
+   },
+   {
+    "key": "B",
+    "text": "同期控制"
+   },
+   {
+    "key": "C",
+    "text": "群体控制"
+   },
+   {
+    "key": "D",
+    "text": "自我控制"
+   }
+  ],
+  "answer": "B",
+  "explain": "按控制来源分：正式组织控制、群体控制、自我控制。同期控制是按控制信息的性质（时间）划分的。",
+  "chapter": 5,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-69",
+  "type": "single",
+  "stem": "如果衡量绩效结果比较令人满意，可采取（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "维持原状"
+   },
+   {
+    "key": "B",
+    "text": "纠正偏差"
+   },
+   {
+    "key": "C",
+    "text": "修改标准"
+   },
+   {
+    "key": "D",
+    "text": "都不是"
+   }
+  ],
+  "answer": "A",
+  "explain": "衡量绩效结果令人满意时，可维持原状（不需纠正）。",
+  "chapter": 5,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-70",
+  "type": "single",
+  "stem": "反馈控制的主要缺点是(）",
+  "options": [
+   {
+    "key": "A",
+    "text": "预测不准"
+   },
+   {
+    "key": "B",
+    "text": "易主观臆断"
+   },
+   {
+    "key": "C",
+    "text": "时滞问题"
+   },
+   {
+    "key": "D",
+    "text": "都不是"
+   }
+  ],
+  "answer": "C",
+  "explain": "反馈控制的主要缺点是时滞问题（偏差已发生才发现）。",
+  "chapter": 5,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-71",
+  "type": "single",
+  "stem": "管理者最渴望采取的控制类型（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "反馈控制"
+   },
+   {
+    "key": "B",
+    "text": "同期控制"
+   },
+   {
+    "key": "C",
+    "text": "直接控制"
+   },
+   {
+    "key": "D",
+    "text": "前馈控制"
+   }
+  ],
+  "answer": "D",
+  "explain": "管理者最渴望采取前馈控制（事前预防，成本最低）。",
+  "chapter": 5,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-72",
+  "type": "single",
+  "stem": "亡羊补牢与哪些控制类型类似（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "同期控制"
+   },
+   {
+    "key": "B",
+    "text": "反馈控制"
+   },
+   {
+    "key": "C",
+    "text": "直接控制"
+   },
+   {
+    "key": "D",
+    "text": "前馈控制"
+   }
+  ],
+  "answer": "B",
+  "explain": "\"亡羊补牢\"是事后补救，对应反馈控制。",
+  "chapter": 5,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-73",
+  "type": "single",
+  "stem": "群体控制是在下面哪个基础上发展和维持的（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "正式组织"
+   },
+   {
+    "key": "B",
+    "text": "个人"
+   },
+   {
+    "key": "C",
+    "text": "部门"
+   },
+   {
+    "key": "D",
+    "text": "非正式组织"
+   }
+  ],
+  "answer": "D",
+  "explain": "群体控制是在非正式组织的基础上发展和维持的。",
+  "chapter": 5,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-74",
+  "type": "single",
+  "stem": "控制工作中要突出重点，避免“胡子眉毛一把抓”，是指下面哪条控制原则（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "客观性原则"
+   },
+   {
+    "key": "B",
+    "text": "例外原则"
+   },
+   {
+    "key": "C",
+    "text": "关键点原则"
+   },
+   {
+    "key": "D",
+    "text": "未来导向原则"
+   }
+  ],
+  "answer": "C",
+  "explain": "\"避免胡子眉毛一把抓\"即抓住关键点，属关键点原则。",
+  "chapter": 5,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-75",
+  "type": "single",
+  "stem": "种庄稼需要水，但一地区近年总不下雨，怎么办？一种办法是灌溉，以弥补天不下雨的不足。另一种办法是该种耐旱作物，使所种作物与环境相适应。这两种措施分别是（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "纠正偏差和调整计划"
+   },
+   {
+    "key": "B",
+    "text": "调整计划和纠正偏差"
+   },
+   {
+    "key": "C",
+    "text": "反馈控制和前馈控制"
+   },
+   {
+    "key": "D",
+    "text": "前馈控制和反馈控制"
+   }
+  ],
+  "answer": "A",
+  "explain": "灌溉是对已发生的偏差进行补救（纠正偏差）；改种耐旱作物是调整计划以适应环境。",
+  "chapter": 5,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-76",
+  "type": "single",
+  "stem": "工艺科长在生产现场中发现一个工人没有按照作业规范操作，他立即上前去制止。这种控制方式属于（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "预先控制"
+   },
+   {
+    "key": "B",
+    "text": "直接控制"
+   },
+   {
+    "key": "C",
+    "text": "同期控制"
+   },
+   {
+    "key": "D",
+    "text": "间接控制"
+   }
+  ],
+  "answer": "C",
+  "explain": "在现场发现并立即制止，属同期控制（现场控制）。",
+  "chapter": 5,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-77",
+  "type": "single",
+  "stem": "同期控制主要是由哪种管理者所采用（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "高层管理者"
+   },
+   {
+    "key": "B",
+    "text": "基层管理者"
+   },
+   {
+    "key": "C",
+    "text": "中层管理者"
+   },
+   {
+    "key": "D",
+    "text": "都不是"
+   }
+  ],
+  "answer": "B",
+  "explain": "同期控制主要针对现场作业，由基层管理者采用。",
+  "chapter": 5,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-78",
+  "type": "single",
+  "stem": "控制产生偏差的原因的控制类型是（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "反馈控制"
+   },
+   {
+    "key": "B",
+    "text": "同期控制"
+   },
+   {
+    "key": "C",
+    "text": "前馈控制"
+   },
+   {
+    "key": "D",
+    "text": "群体控制"
+   }
+  ],
+  "answer": "C",
+  "explain": "针对偏差产生的原因进行控制，即前馈控制（控制原因而非结果）。",
+  "chapter": 5,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-79",
+  "type": "single",
+  "stem": "“根据过去工作的情况，去调整未来活动的行为。”这句话是对下述哪种控制的描述？（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "前馈控制"
+   },
+   {
+    "key": "B",
+    "text": "反馈控制"
+   },
+   {
+    "key": "C",
+    "text": "现场控制"
+   },
+   {
+    "key": "D",
+    "text": "实时控制"
+   }
+  ],
+  "answer": "B",
+  "explain": "根据过去情况调整未来行为，属反馈控制。",
+  "chapter": 5,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-80",
+  "type": "single",
+  "stem": "外科实习医生第一次作手术时需要有经验丰富的医生在手术过程中对其进行指导，这是一种（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "预先控制"
+   },
+   {
+    "key": "B",
+    "text": "事后控制"
+   },
+   {
+    "key": "C",
+    "text": "随机控制"
+   },
+   {
+    "key": "D",
+    "text": "现场控制"
+   }
+  ],
+  "answer": "D",
+  "explain": "手术过程中由有经验医生现场指导，属现场控制（同期控制）。",
+  "chapter": 5,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-81",
+  "type": "single",
+  "stem": "一个企业中管理者为例提高自己对下属的领导效果，他应当（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "提高在下属中的威信性影响力"
+   },
+   {
+    "key": "B",
+    "text": "尽量升到更高的职位"
+   },
+   {
+    "key": "C",
+    "text": "采取严厉的惩罚措施"
+   },
+   {
+    "key": "D",
+    "text": "增加对下属的物质刺激"
+   }
+  ],
+  "answer": "A",
+  "explain": "提高领导效果应靠提升自身的威信性影响力（非权力影响力），而非靠职位、惩罚或物质刺激。",
+  "chapter": 4,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-82",
+  "type": "single",
+  "stem": "管理中协调的中心是（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "企业活动"
+   },
+   {
+    "key": "B",
+    "text": "企业中的事件"
+   },
+   {
+    "key": "C",
+    "text": "企业中的人"
+   },
+   {
+    "key": "D",
+    "text": "企业中的设备"
+   }
+  ],
+  "answer": "C",
+  "explain": "管理中协调的中心是人。",
+  "chapter": 3,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-83",
+  "type": "single",
+  "stem": "“经济人”假设又称为“唯利人”假设，其代表人物是（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "泰罗"
+   },
+   {
+    "key": "B",
+    "text": "法约尔"
+   },
+   {
+    "key": "C",
+    "text": "梅奥"
+   },
+   {
+    "key": "D",
+    "text": "马斯洛"
+   }
+  ],
+  "answer": "A",
+  "explain": "\"经济人\"（唯利人）假设的代表人物是泰罗。",
+  "chapter": 1,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-84",
+  "type": "single",
+  "stem": "就马斯洛的“需要层次理论”和赫茨伯格的“双因素理论”相比较而言（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "生理需要相当于保健因素"
+   },
+   {
+    "key": "B",
+    "text": "生理、安全需要相当于保健因素"
+   },
+   {
+    "key": "C",
+    "text": "生理、社交和安全需要相当于保健因素"
+   },
+   {
+    "key": "D",
+    "text": "生理、社交、安全和尊重需要相当于保健因素"
+   }
+  ],
+  "answer": "C",
+  "explain": "卷面官方答案为 C（生理、社交和安全需要相当于保健因素）。按教材「双因素理论与需要层次理论是相吻合的，马斯洛理论中低层次的需要相当于保健因素，高层次的需要相当于激励因素」，则生理、安全两项相当于保健因素（即选项 B）；教材划分与卷面答案有出入，站内已注「卷面以答案为准」——作答按卷面 C，平时记「低层次≈保健、高层次≈激励」。",
+  "chapter": 1,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ },
+ {
+  "id": "mid2018-85",
+  "type": "single",
+  "stem": "企业的生产计划、销售计划和财务计划等都属于（）",
+  "options": [
+   {
+    "key": "A",
+    "text": "综合计划"
+   },
+   {
+    "key": "B",
+    "text": "专业计划"
+   },
+   {
+    "key": "C",
+    "text": "项目计划"
+   },
+   {
+    "key": "D",
+    "text": "指导性计划"
+   }
+  ],
+  "answer": "B",
+  "explain": "同第26题：生产、销售、财务计划属专业计划。",
+  "chapter": 2,
+  "source": "2018期中测试卷",
+  "answerSource": "official"
+ }
+]
